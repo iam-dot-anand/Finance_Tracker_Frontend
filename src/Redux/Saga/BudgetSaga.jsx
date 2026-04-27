@@ -1,6 +1,6 @@
 import { call, put, takeLatest } from "redux-saga/effects";
 
-const API = "http://localhost:8000/budget";
+const API = "https://finance-trackers-he5w.onrender.com/budget";
 
 const getHeaders = () => ({
   "Content-Type": "application/json",

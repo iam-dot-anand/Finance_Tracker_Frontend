@@ -2,7 +2,7 @@ import { put, call, takeLatest } from "redux-saga/effects";
 
 function* signupWorkerSaga(action) {
   try {
-    const response = yield call(fetch, "http://localhost:8000/auth/sign-up", {
+    const response = yield call(fetch, "https://finance-trackers-he5w.onrender.com/auth/sign-up", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

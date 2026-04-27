@@ -7,7 +7,7 @@ import {
   SET_EXPENSES,
 } from "../Action/expenseAction";
 
-const API = "http://localhost:8000/expense";
+const API = "https://finance-trackers-he5w.onrender.com/expense";
 
 const getHeaders = () => ({
   "Content-Type": "application/json",

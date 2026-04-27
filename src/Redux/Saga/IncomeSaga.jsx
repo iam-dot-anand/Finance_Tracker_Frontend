@@ -7,7 +7,7 @@ import {
   SET_INCOME,
 } from "../Action/incomeAction";
 
-const API = "http://localhost:8000/income";
+const API = "https://finance-trackers-he5w.onrender.com/income";
 
 const getHeaders = () => ({
   "Content-Type": "application/json",
